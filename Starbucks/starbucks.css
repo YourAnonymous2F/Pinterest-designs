@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;;
+    position: relative;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+    margin-top: 10px;
+    padding: 0 15px;
+}
+
+.logotext img{
+    border-radius: 50%;
+    width: 15%;
+    height: 15%;
+}
+
+.logotext h3{
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 65px;
+    position: absolute;
+    top: 22px;
+}
+
+#navbar{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+nav a{
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0 20px;
+    font-weight: 400;
+    color: black;
+    transition: 0.2s;
+}
+
+nav a:hover{
+    color: black;
+    font-weight: 900;
+    font-size: 1rem;
+}
+
+.btn{
+    display: inline-flex;
+}
+
+.search-box{
+    margin-right: 25px;
+    border: 1px solid grey;
+    width: 100%;
+    height: 25px;
+}
+
+#search-box{
+    border: none;
+    outline: none;
+    padding-top: 5px;
+    padding-left: 5px;
+    background: transparent;
+}
+
+.search{
+    position: absolute;
+    right: 6%;
+    margin: 5px;
+}
+
+.cart-img{
+    margin-top: 5px;
+}
+
+.cart-img .cart{
+    color: blue;
+}
+
+.main-body{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 8%;
+    justify-content: space-between;
+}
+
+.body-text h2{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.star{
+    font-size: 10px;
+    margin-top: 15px;
+}
+
+.fa-star{
+    color: #FFDF00;
+}
+.star-star{
+    color: black;
+}
+
+.star span{
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(14, 219, 134);
+    padding-left: 25px;
+}
+
+.pro-info{
+    font-size: 13px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.body-text h5{
+    margin-top: 20px;
+}
+
+.serve-w{
+    display: flex;
+    position: relative;
+}
+
+.image1 .s-with{
+    margin-left: 0px;
+}
+
+.s-with{
+    /* border: 1px solid red; */
+    width: 60px;
+    height: 60px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.lol1{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.serve-text{
+    position: absolute;
+    text-align: center;
+    font-size: 13px;
+    top: 49px;
+    left: 11px;
+    padding: 3px 0 0 0;
+}
+
+.lol2{
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* .lol21{
+    height: 55px;
+} */
+
+.serve-text2{
+    position: absolute;
+    text-align: center;
+    font-size: 13px;
+    top: 49px;
+    padding: 3px 0 0 6px;
+}
+
+.order{
+    display: flex;
+    margin-top: 40px;
+}
+
+.input{
+    border: 2px solid blue;
+    border-radius: 5px;
+    height: 25px;
+}
+
+#amount{
+    border: none;
+    outline: none;
+    padding-top: 5px;
+    padding-left: 3px;
+    width: 100px;
+    background: transparent;
+}
+
+#amount::placeholder{
+    color: black;
+}
+
+.add{
+    border: 2px solid darkgreen;
+    background-color: green;
+    border-radius: 5px;
+    margin-left: 25px;
+    width: 130px;
+    height: 25px;
+    position: relative;
+}
+
+.add-to{
+    position: absolute;
+    top: -15px;
+    padding-left: 5px;
+    color: white;
+}
+
+.fa-play{
+    margin-left: 35px;
+}
+
+.product-image{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image12{
+    position: absolute;
+    left: 33%;
+    z-index: -1;
+    top: 19%;
+}
+
+.product-images{
+    position: absolute;
+    right: 8%;
+    top: 19%;
+}
+
+.items3{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.p-text{
+    position: absolute;
+    top: 120px;
+    right: 30px;
+    text-align: center;
+    background: black;
+    color: white;
+    font-size: 10px;
+    padding: 5px 5px;
+}
+
+.p-text1{
+    position: absolute;
+    top: 290px;
+    right: 30px;
+    text-align: center;
+    background: black;
+    color: white;
+    font-size: 10px;
+    padding: 5px 5px;
+}
+
+.p-text2{
+    position: absolute;
+    top: 505px;
+    right: 30px;
+    text-align: center;
+    background: black;
+    color: white;
+    font-size: 10px;
+    padding: 5px 5px;
+}
+
+.item4{
+    margin-top: 40px;
+}
+
+.item5{
+    margin-top: 40px;
+}
